@@ -1,0 +1,290 @@
+* {
+    margin: 0;
+    padding: 0;
+   
+}
+
+body {
+    font-family: 'Merriweather', serif , cursive;
+
+}
+
+.navbar {
+    background: linear-gradient(130deg,#ff00cc,#333399);
+    padding: 20px 70px 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+    position: fixed;
+    width: 90%;
+}
+
+.navbar_div {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+
+.navbar ul {
+    display: inline-flex;
+    gap: 50px;
+    list-style-type: none;
+    padding-right: 60px;
+}
+
+.navbar ul:hover {
+    cursor: pointer;
+}
+
+.navbar button {
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+   border-style:hidden;
+   border-color: white;
+
+    background-color: transparent;
+    color: white;
+}
+
+.navbar button:hover {
+    background-color: #FF8F8F;
+} 
+
+.container {
+    background:  linear-gradient(130deg,#ff00cc,#333399);
+    color: white;
+    padding: 20% 30px 10% 40px;
+    font-family: cursive; 
+    display: flex;
+    gap: 20%;
+    
+}
+
+.container h1 {
+ font-size:50px;
+ font-weight: bold;
+}
+
+
+.search {
+    text-align: center;
+}
+.container input {
+    margin-top: 50px;   
+    padding: 30px 60px 30px 60px ;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    font-size: medium;
+    
+}
+.advertising {
+    margin-top: -60px;
+    display: flex;
+    gap: 40px;
+    padding: 0 100px 0 100px ;
+}
+
+.div {
+    background-color: white;
+    width: 300px;
+    height: 100px;
+    border-radius: 7px;
+}
+
+.courses {
+    background-color: aliceblue;
+    text-align: center;
+   
+    
+}
+.courses_text {
+    padding-top: 50px;
+    font-size:30px;
+    font-weight: bold;
+ 
+}
+
+.card_container {
+    display: flex;
+    gap: 150px;
+    padding: 20px 15% 20px 15%;
+}
+
+.card {
+    width: 250px;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    border-style: ridge;
+}
+
+.card img {
+    width: 50%;
+    height: auto;
+    border-radius: 50%;
+ 
+}
+
+.card h1 {
+    margin: 10px 0;
+    font-size: 24px;
+}
+
+.card p {
+    font-size: 18px;
+    color: #333;
+}
+
+.card ul {
+    list-style-type: none;
+}
+
+
+.college_container {
+    background-color: aliceblue;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+.college_container h1 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size:30px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.btn1 {
+    padding: 10px 12px 10px 12px;
+    border-radius: 5px;
+   border: none;
+   border-style: ridge;
+    outline: none;
+}
+.btn1:hover {
+    border: aliceblue;
+}
+.btn2 {
+    padding: 10px 10px 10px 10px;
+    border-radius: 5px;
+    border: none;
+    border-style: ridge;
+     outline: none;
+}
+.btn2:hover {
+    border: aliceblue;
+}
+
+.column_container {
+    border-left-style: ridge;
+    height: auto;    
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+
+}
+
+.column {
+    width: 350px;
+    height: 75px;
+    border-style: ridge;
+    border-radius: 5px;
+    background-color: #EEF0E5;
+    padding: 10px 10px 10px 20px ;
+    display: flex;
+    gap: 15px;
+}
+
+.column img {
+    border-radius: 50px;
+width: 100px;
+height: 70px;
+
+}
+
+.branch {
+    width: 100%;
+    display: block;
+}
+
+.subscribe {
+    padding: 30px 10px 50px 10px;
+    text-align: center;
+}
+
+.subscribe h1 {
+    font-size: 30px;
+
+}
+
+.subscribe p {
+    font-size: 20px;
+}
+.details {
+    padding: 30px 0 10px 0 ;
+ 
+ display: inline-flex;
+ gap: 60px;
+}
+
+.details input {
+    padding: 10px 30px 10px 30px ;
+    border-radius: 5px;
+    gap: 30px;
+
+}
+
+.details button {
+    padding: 10px 30px 10px 30px ;
+    border-radius: 5px;
+}
+
+
+
+footer {
+    background-color: #333399;
+    color: white;
+    text-align: center;
+    padding: 30px;
+
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+@media  (min-width: 768px) {
+
+    .details {
+        padding: 30px 0 10px 0 ;
+        display: inline-flex;
+        flex-wrap: wrap-reverse;
+     
+  
+ 
+    }
+
+  }
+
+
+
+       

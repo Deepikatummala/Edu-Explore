@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+   
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+.navbar {
+    background: linear-gradient(130deg,#ff00cc,#333399);
+    padding: 20px 70px 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+    position: fixed;
+    width: 100%;
+}
+
+.navbar_div {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+
+.navbar ul {
+    display: inline-flex;
+    gap: 50px;
+    list-style-type: none;
+    padding-right: 60px;
+}
+.navbar ul:hover {
+    cursor: pointer;
+}
+
+.navbar button {
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+   border-style:hidden;
+   border-color: white;
+
+    background-color: transparent;
+    color: white;
+}
+
+.navbar button:hover {
+    background-color: #FF8F8F;
+} 
+
+
+.container {
+    background:  linear-gradient(130deg,#ff00cc,#333399);
+    color: white;
+    padding: 7% 30px 7% 40px;
+    font-family: cursive; 
+    display: flex;
+    gap: 20%;
+    
+}
+
+.container h1 {
+ font-size:50px;
+ font-weight: bold;
+}
+
+
+.search {
+    text-align: center;
+}
+.container input {
+    margin-top: 50px;   
+    padding: 30px 60px 30px 60px ;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    font-size: medium;
+    
+}
+
+* 
+{
+    box-sizing: border-box;
+}
+
+
+.row {
+    margin-top: 50px;
+    display: flex;
+    gap: 5%;
+
+}
+
+.column_container {
+    border-left-style: ridge;
+    height: auto;    
+    padding: 20px;
+
+}
+.column {
+    display: flex;
+    padding: 30px 30px 30px 30px;
+    gap: 10px;
+}
+.image {
+    width: 25%;
+    height: 100%;
+}
+.image img {
+    width: 100%;
+    height: 35%;
+    border-radius: 5px;
+}
+.column1 {
+    width: 100%;
+    margin-left: 25px;
+}
+ul {
+    list-style-type:none;
+}
+.p {
+    font-size: larger;
+    font-weight: bold;
+   
+}
+.course {
+    padding-left: 10px;
+}
+.course input {
+    border-radius: 50px;
+    outline: none;
+    padding: 10px;
+    border-style: ridge;
+    background: transparent;
+}
+
+#hr {
+    width: 900px;
+}
+.Description {
+    width: 25%;
+    text-align: center;
+    margin-top: 30px;
+    margin-left:0px;
+}
+
+footer {
+    background-color: #333399;
+    color: white;
+    text-align: center;
+    padding: 30px;
+
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+@media screen and (max-width: 800px) {
+    .column {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .column {
+        width: 100%;
+    }
+}
